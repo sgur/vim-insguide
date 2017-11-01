@@ -45,7 +45,7 @@ endfunction "}}}
 " Enables insguide automatically
 let g:insguide_default_enable = get(g:, 'insguide_default_enable', 1)
 " Highlight group to use (Default: 'Underlined')
-let g:insguide_highlight_group = get(g:, 'insguide_highlight_group', 'Question')
+let g:insguide_highlight_group = get(g:, 'insguide_highlight_group', 'Underlined')
 " Filetype blacklist (Default: ["help"])
 let g:insguide_filetype_blacklist = get(g:, 'insguide_filetype_blacklist', ['help'])
 " Syntax pattern to ignore highlighting
